@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: linear-gradient(#ffefd5, #fff);
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.name-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.text-gradient {
+  background: linear-gradient(to right,  #800080,  #ff1493);
+  -webkit-background-clip: text;
+  color: transparent;
 }
